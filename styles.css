@@ -226,6 +226,15 @@ h4 {
   font-weight: 700;
 }
 
+.algorithm-card__image {
+  height: clamp(4rem, 1.962rem + 8.933vw, 6.25rem);
+  width: clamp(4rem, 1.962rem + 8.933vw, 6.25rem);
+}
+
+.algorithm-card__list{
+  padding-left: 1rem;
+}
+
 .algorithm-card__description {
   margin-top: 0.25rem;
   color: #a1a1aa;
@@ -238,7 +247,7 @@ h4 {
   border: 1px solid #27272a;
   border-radius: 0.5rem;
   background: #09090b;
-  text-align: right;
+  text-align: left;
 }
 
 .algorithm-card__notation-text {
