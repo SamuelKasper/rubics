@@ -235,6 +235,13 @@ h4 {
   padding-left: 1rem;
 }
 
+.algorithm-card__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
 .algorithm-card__description {
   margin-top: 0.25rem;
   color: #a1a1aa;
@@ -268,6 +275,16 @@ h4 {
 
 @media (min-width: 640px) {
   .algorithm-card {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .algorithm-card--column {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .algorithm-card__wrapper{
     flex-direction: row;
     align-items: center;
   }

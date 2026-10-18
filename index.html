@@ -8,15 +8,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Fira+Code:wght@500;700&amp;display=swap"
       rel="stylesheet"
     />
-    <link href="styles.css" rel="stylesheet" />
+    <link href="styles.css?v=0.0.2" rel="stylesheet" />
   </head>
   <body class="cfop-page">
     <header class="cfop-header">
       <div class="cfop-header__inner">
         <h1 class="cfop-header__title">
-          <span class="cfop-header__title-text">
-            Rubics / Speed Cube
-          </span>
+          <span class="cfop-header__title-text"> Rubics / Speed Cube </span>
         </h1>
         <p class="cfop-header__subtitle">
           Notation, einsteiger Anleitung und CFOP
@@ -24,11 +22,16 @@
       </div>
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__list-list"><a class="nav__link" href="#notation">Notation</a></li>
-          <li class="nav__list-list"><a class="nav__link" href="#beginner">Beginner Anleitung</a></li>
-          <li class="nav__list-list"><a class="nav__link" href="#cfop">CFOP - Methode</a></li>
+          <li class="nav__list-list">
+            <a class="nav__link" href="#notation">Notation</a>
+          </li>
+          <li class="nav__list-list">
+            <a class="nav__link" href="#beginner">Beginner Anleitung</a>
+          </li>
+          <li class="nav__list-list">
+            <a class="nav__link" href="#cfop">CFOP - Methode</a>
+          </li>
         </ul>
-        
       </nav>
     </header>
 
@@ -39,22 +42,55 @@
           <h2 id="notation" class="cfop-section__headline">
             <span class="cfop-section__title-text">Notation</span>
           </h2>
-          <p class="cfop-section__description">Die Notation ist aus der Perspektive der direkten draufsicht zu verstehen.</p>
+          <p class="cfop-section__description">
+            Die Notation ist aus der Perspektive der direkten draufsicht zu
+            verstehen.
+          </p>
         </div>
 
         <div class="cfop-section__content">
           <div class="algorithm-card">
             <div class="algorithm-card__main">
               <div class="algorithm-card__text">
-                <p class="algorithm-card__description">Die Rubik's Cube Notation beschreibt Drehungen von der jeweiligen <strong>Draufsicht</strong> auf die genannte Seite, wobei Großbuchstaben für Seiten (<strong>U, D, F, B, R, L</strong>), ein Apostroph (') für eine Drehung gegen den Uhrzeigersinn und eine `2` für eine 180°-Drehung stehen.<br><br> x, y, z steht für die Rotation des gesamten Würfels um die jeweilige Achse.</p>
+                <p class="algorithm-card__description">
+                  Die Rubik's Cube Notation beschreibt Drehungen von der
+                  jeweiligen <strong>Draufsicht</strong> auf die genannte Seite,
+                  wobei Großbuchstaben für Seiten (<strong
+                    >U, D, F, B, R, L</strong
+                  >), ein Apostroph (') für eine Drehung gegen den Uhrzeigersinn
+                  und eine `2` für eine 180°-Drehung stehen.<br /><br />
+                  x, y, z steht für die Rotation des gesamten Würfels um die
+                  jeweilige Achse.
+                </p>
                 <ul class="algorithm-card__list">
-                  <li class="algorithm-card__description">F: Die Vorderseite um 90° im Uhrzeigersinn drehen.</li>
-                  <li class="algorithm-card__description">R': Die rechte Seite aus der Draufsicht um 90° gegen den Uhrzeigersinn drehen (also zu dir her / nach unten).</li>
-                  <li class="algorithm-card__description">U2: Die oberste Schicht um 180° drehen (Richtung egal).</li>
-                  <li class="algorithm-card__description">B: Die Hinterseite um 90° im Uhrzeigersinn drehen (wenn du direkt von hinten auf die Seite schauen würdest).</li>
-                  <li class="algorithm-card__description">L': Die linke Seite aus der Draufsicht um 90° gegen den Uhrzeigersinn drehen (also von dir weg / nach oben).</li>
-                  <li class="algorithm-card__description">y ist eine Drehung des ganzen Würfels nach links, also in U Richtung. y' wäre eine Drehung des gesamten Würfels nach rechts.</li>
-                  <li class="algorithm-card__description">x ist eine Drehung des ganzen Würfels nach oben, also in R Richtung. x' wäre eine Drehung des gesamten Würfels nach unten.</li>
+                  <li class="algorithm-card__description">
+                    F: Die Vorderseite um 90° im Uhrzeigersinn drehen.
+                  </li>
+                  <li class="algorithm-card__description">
+                    R': Die rechte Seite aus der Draufsicht um 90° gegen den
+                    Uhrzeigersinn drehen (also zu dir her / nach unten).
+                  </li>
+                  <li class="algorithm-card__description">
+                    U2: Die oberste Schicht um 180° drehen (Richtung egal).
+                  </li>
+                  <li class="algorithm-card__description">
+                    B: Die Hinterseite um 90° im Uhrzeigersinn drehen (wenn du
+                    direkt von hinten auf die Seite schauen würdest).
+                  </li>
+                  <li class="algorithm-card__description">
+                    L': Die linke Seite aus der Draufsicht um 90° gegen den
+                    Uhrzeigersinn drehen (also von dir weg / nach oben).
+                  </li>
+                  <li class="algorithm-card__description">
+                    y ist eine Drehung des ganzen Würfels nach links, also in U
+                    Richtung. y' wäre eine Drehung des gesamten Würfels nach
+                    rechts.
+                  </li>
+                  <li class="algorithm-card__description">
+                    x ist eine Drehung des ganzen Würfels nach oben, also in R
+                    Richtung. x' wäre eine Drehung des gesamten Würfels nach
+                    unten.
+                  </li>
                 </ul>
               </div>
             </div>
@@ -68,7 +104,9 @@
           <h2 id="beginner" class="cfop-section__headline">
             <span class="cfop-section__title-text">Beginner Anleitung</span>
           </h2>
-          <p class="cfop-section__description">Einsteigerfreundliche Anleitung</p>
+          <p class="cfop-section__description">
+            Einsteigerfreundliche Anleitung
+          </p>
         </div>
 
         <div class="cfop-section__content">
@@ -76,7 +114,10 @@
             <div class="algorithm-card__main">
               <div class="algorithm-card__text">
                 <h3 class="algorithm-card__title">1. Weißes Kreuz</h3>
-                <p class="algorithm-card__description">Das Kreuz lässt sich immer in maximal 8, meistens aber 6 Zügen lösen.</p>
+                <p class="algorithm-card__description">
+                  Das Kreuz lässt sich immer in maximal 8, meistens aber 6 Zügen
+                  lösen.
+                </p>
               </div>
             </div>
           </div>
@@ -85,7 +126,10 @@
             <div class="algorithm-card__main">
               <div class="algorithm-card__text">
                 <h3 class="algorithm-card__title">2. Weiße Ecken</h3>
-                <p class="algorithm-card__description">Gelbe Seite nach oben drehen. Ecke oberhalb der Zielecke drehen dann folgenen Algorithmus.</p>
+                <p class="algorithm-card__description">
+                  Gelbe Seite nach oben drehen. Ecke oberhalb der Zielecke
+                  drehen dann folgenen Algorithmus.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
@@ -93,37 +137,70 @@
             </div>
           </div>
 
-          <div class="algorithm-card">
+          <div class="algorithm-card algorithm-card--column">
             <div class="algorithm-card__main">
               <div class="algorithm-card__text">
                 <h3 class="algorithm-card__title">3. Mittlere Ebene</h3>
-                <p class="algorithm-card__description">Die Kanten der weißen Seite am passenden Mittelstein ausrichten und je nachdem auf welche Seite die Kante soll einen der folgenden Algorithmen. y steht dabei für eine Drehung des gesamten Würfels nach links (y) oder rechts (y').</p>
+                <p class="algorithm-card__description">
+                  Die Kanten der weißen Seite am passenden Mittelstein
+                  ausrichten und je nachdem auf welche Seite die Kante soll
+                  einen der folgenden Algorithmen. y steht dabei für eine
+                  Drehung des gesamten Würfels nach links (y) oder rechts (y').
+                </p>
               </div>
             </div>
-            <p  class="algorithm-card__description">Kante muss nach links</p>
-            <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">U' L U' L' U y' R U R' U'</span><br>
-            </div>
-            <p  class="algorithm-card__description">Kante muss nach rechts</p>
-            <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">U R U R' U' y L U' L' U</span>
+            <div class="algorithm-card__wrapper">
+              <div class="">
+                <p class="algorithm-card__description">Kante muss nach links</p>
+                <div class="algorithm-card__notation">
+                  <span class="algorithm-card__notation-text"
+                    >U' L U' L' U y' R U R' U'</span
+                  >
+                </div>
+              </div>
+
+              <div class="">
+                <p class="algorithm-card__description">Kante muss nach rechts</p>
+                <div class="algorithm-card__notation">
+                  <span class="algorithm-card__notation-text"
+                    >U R U R' U' y L U' L' U</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
 
-          <div class="algorithm-card">
+          <div class="algorithm-card algorithm-card--column">
             <div class="algorithm-card__main">
               <div class="algorithm-card__text">
                 <h3 class="algorithm-card__title">4. Gelbes Kreuz</h3>
-                <p class="algorithm-card__description">Es gibt drei Fälle. Nur Mittelstück, Linie oder Ecke. Für eine <a class="cfop-section__link" href="#oll">optimale Lösung</a> siehte Kanten ausrichten / gelbes Kreuz im Abschnitt OLL in zwei Schritten.</p>
+                <p class="algorithm-card__description">
+                  Es gibt drei Fälle. Nur Mittelstück, Linie oder Ecke. Für eine
+                  <a class="cfop-section__link" href="#oll">optimale Lösung</a>
+                  siehte Kanten ausrichten / gelbes Kreuz im Abschnitt OLL in
+                  zwei Schritten.
+                </p>
               </div>
             </div>
-            <p class="algorithm-card__description">Punkt oder Linie</p>
-            <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">F (R U R' U') F'</span><br>
-            </div>
-            <p class="algorithm-card__description">Ecke</p>
-            <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">F 2x(R U R' U') F'</span>
+
+            <div class="algorithm-card__wrapper">
+              <div class="">
+                <p class="algorithm-card__description">Punkt oder Linie</p>
+                <div class="algorithm-card__notation">
+                  <span class="algorithm-card__notation-text"
+                    >F (R U R' U') F'</span
+                  >
+                </div>
+              </div>
+
+              <div class="">
+                <p class="algorithm-card__description">Ecke</p>
+                <div class="algorithm-card__notation">
+                  <span class="algorithm-card__notation-text"
+                    >F 2x(R U R' U') F'</span
+                  >
+                </div>
+              </div>
             </div>
           </div>
 
@@ -131,11 +208,18 @@
             <div class="algorithm-card__main">
               <div class="algorithm-card__text">
                 <h3 class="algorithm-card__title">5. Gelbe Kanten</h3>
-                <p class="algorithm-card__description">Obere Ebene so lange drehen bis 2 Kanten mit den Mittelstücken übereinstimmen. Wenn die Kanten gegenüber liegen eine der beiden nach vorne halten. Wenn die Kanten nebeneinander liegen die Kanten nach hinten rechts.</p>
+                <p class="algorithm-card__description">
+                  Obere Ebene so lange drehen bis 2 Kanten mit den Mittelstücken
+                  übereinstimmen. Wenn die Kanten gegenüber liegen eine der
+                  beiden nach vorne halten. Wenn die Kanten nebeneinander liegen
+                  die Kanten nach hinten rechts.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">R U R' U R U' U' R'</span><br>
+              <span class="algorithm-card__notation-text"
+                >R U R' U R U' U' R'</span
+              ><br />
             </div>
           </div>
 
@@ -143,11 +227,15 @@
             <div class="algorithm-card__main">
               <div class="algorithm-card__text">
                 <h3 class="algorithm-card__title">6. Gelbe Ecken platzieren</h3>
-                <p class="algorithm-card__description">Ecke vorne links platzieren</p>
+                <p class="algorithm-card__description">
+                  Ecke vorne links platzieren
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">R U' L U R' U' L'</span><br>
+              <span class="algorithm-card__notation-text"
+                >R U' L U R' U' L'</span
+              ><br />
             </div>
           </div>
 
@@ -155,11 +243,16 @@
             <div class="algorithm-card__main">
               <div class="algorithm-card__text">
                 <h3 class="algorithm-card__title">7. Gelbe Ecken drehen</h3>
-                <p class="algorithm-card__description">Weiße Seite nach oben halten und verdrehte Ecken nach unten rechts halten. Dann den Algorithmus so lange wiederholen bis die Ecke stimmt. Anschließend die unterste Ebene zur nächsten Ecke weiterdrehen und den Algorithmus wiederholen.</p>
+                <p class="algorithm-card__description">
+                  Weiße Seite nach oben halten und verdrehte Ecken nach unten
+                  rechts halten. Dann den Algorithmus so lange wiederholen bis
+                  die Ecke stimmt. Anschließend die unterste Ebene zur nächsten
+                  Ecke weiterdrehen und den Algorithmus wiederholen.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">R U R' U'</span><br>
+              <span class="algorithm-card__notation-text">R U R' U'</span><br />
             </div>
           </div>
         </div>
@@ -175,16 +268,27 @@
           <h3 class="cfop-section__title">
             <span class="cfop-section__title-text">1. Weißes Kreuz</span>
           </h3>
-          <p class="cfop-section__description">Erster Schritt: Weißes Kreuz auf der Unterseite lösen. Kanten müssen zu den Seiten-Mittelstücken passen.</p>
+          <p class="cfop-section__description">
+            Erster Schritt: Weißes Kreuz auf der Unterseite lösen. Kanten müssen
+            zu den Seiten-Mittelstücken passen.
+          </p>
         </div>
 
         <div class="cfop-section__content">
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/cross.png" alt="Würfelbild: Weißes Kreuz" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/cross.png"
+                alt="Würfelbild: Weißes Kreuz"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h3 class="algorithm-card__title">Weißes Kreuz</h3>
-                <p class="algorithm-card__description">Das Kreuz lässt sich immer in maximal 8, meistens aber 6 Zügen lösen.</p>
+                <p class="algorithm-card__description">
+                  Das Kreuz lässt sich immer in maximal 8, meistens aber 6 Zügen
+                  lösen.
+                </p>
               </div>
             </div>
           </div>
@@ -195,39 +299,84 @@
       <section class="cfop-section">
         <div class="cfop-section__intro">
           <h3 class="cfop-section__title">
-            <span class="cfop-section__title-text">2. F2L - First 2 Layers</span>
+            <span class="cfop-section__title-text"
+              >2. F2L - First 2 Layers</span
+            >
           </h3>
-          <p class="cfop-section__description">Gleichzeitiges Lösen der ersten beiden Schichten durch das Verbinden von Eck- und Kantenpaaren.</p>
-          <a class="cfop-section__link" href="https://youtu.be/ReOZZHscIGk?si=MKhqx9wskY6ql8yk">Youtube Anleitung für intuitives F2L </a>
+          <p class="cfop-section__description">
+            Gleichzeitiges Lösen der ersten beiden Schichten durch das Verbinden
+            von Eck- und Kantenpaaren.
+          </p>
+          <a
+            class="cfop-section__link"
+            href="https://youtu.be/ReOZZHscIGk?si=MKhqx9wskY6ql8yk"
+            >Youtube Anleitung für intuitives F2L
+          </a>
         </div>
 
         <div class="cfop-section__content">
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/f2l-connected.png" alt="Würfelbild: Grundfall 1: Paar bereits verbunden" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/f2l-connected.png"
+                alt="Würfelbild: Grundfall 1: Paar bereits verbunden"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
-                <h3 class="algorithm-card__title">Grundfall 1: Paar bereits verbunden</h3>
-                <p class="algorithm-card__description">Ecke und Kante sind richtig zusammengesetzt. Die Ecke steht über der Stelle in der sie eingefügt werden soll. Paar einfügen: U' R U R'</p>
+                <h3 class="algorithm-card__title">
+                  Grundfall 1: Paar bereits verbunden
+                </h3>
+                <p class="algorithm-card__description">
+                  Ecke und Kante sind richtig zusammengesetzt. Die Ecke steht
+                  über der Stelle in der sie eingefügt werden soll. Paar
+                  einfügen: U' R U R'
+                </p>
               </div>
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/f2l-seperated.png" alt="Würfelbild: Grundfall 2: Getrennte Steine" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/f2l-seperated.png"
+                alt="Würfelbild: Grundfall 2: Getrennte Steine"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
-                <h3 class="algorithm-card__title">Grundfall 2: Getrennte Steine</h3>
-                <p class="algorithm-card__description">Ecke über Zielposition drehen. So drehen, dass die weiße Seite noch sichtbar ist (U/U'). Ecke nach unten drehen (F'/R). Wenn die Kante oben die gleiche Farbe hat wie die Ecke dann die Kante neben die Ecke, sonst gegenüber der Ecke drehen. Ecke wieder hoch drehen (F/R). Ecke wieder über Ziel drehen (U/U'). Paar bilden und einfügen siehe Grundfall 1.</p>
+                <h3 class="algorithm-card__title">
+                  Grundfall 2: Getrennte Steine
+                </h3>
+                <p class="algorithm-card__description">
+                  Ecke über Zielposition drehen. So drehen, dass die weiße Seite
+                  noch sichtbar ist (U/U'). Ecke nach unten drehen (F'/R). Wenn
+                  die Kante oben die gleiche Farbe hat wie die Ecke dann die
+                  Kante neben die Ecke, sonst gegenüber der Ecke drehen. Ecke
+                  wieder hoch drehen (F/R). Ecke wieder über Ziel drehen (U/U').
+                  Paar bilden und einfügen siehe Grundfall 1.
+                </p>
               </div>
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/f2l-white-up.png" alt="Würfelbild: Grundfall 3: Weiß zeigt nach oben" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/f2l-white-up.png"
+                alt="Würfelbild: Grundfall 3: Weiß zeigt nach oben"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
-                <h3 class="algorithm-card__title">Grundfall 3: Weiß zeigt nach oben</h3>
-                <p class="algorithm-card__description">Kante über Mittelstück drehen. Kante von der Zielposition nach unten wegdrehen. Ecke über die Kante drehen um das Paar zu bilden. Paar einfügen siehe Grundfall 1.</p>
+                <h3 class="algorithm-card__title">
+                  Grundfall 3: Weiß zeigt nach oben
+                </h3>
+                <p class="algorithm-card__description">
+                  Kante über Mittelstück drehen. Kante von der Zielposition nach
+                  unten wegdrehen. Ecke über die Kante drehen um das Paar zu
+                  bilden. Paar einfügen siehe Grundfall 1.
+                </p>
               </div>
             </div>
           </div>
@@ -238,53 +387,90 @@
       <section class="cfop-section">
         <div class="cfop-section__intro">
           <h3 id="oll" class="cfop-section__title">
-            <span class="cfop-section__title-text">3. OLL in zwei Schritten</span>
+            <span class="cfop-section__title-text"
+              >3. OLL in zwei Schritten</span
+            >
           </h3>
-          <p class="cfop-section__description">Gelbe Oberseite lösen in zwei Teilschritten: Ecken orientieren und Kanten orientieren.</p>
+          <p class="cfop-section__description">
+            Gelbe Oberseite lösen in zwei Teilschritten: Ecken orientieren und
+            Kanten orientieren.
+          </p>
         </div>
 
         <div class="cfop-section__content">
           <h3 class="cfop-section__subheading">
             <span class="cfop-section__subheading-marker"></span>
-            <span class="cfop-section__subheading-text">Kanten ausrichten / gelbes Kreuz</span>
+            <span class="cfop-section__subheading-text"
+              >Kanten ausrichten / gelbes Kreuz</span
+            >
           </h3>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid3.png" alt="Würfelbild: Punkt (Dot)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid3.png"
+                alt="Würfelbild: Punkt (Dot)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Punkt (Dot)</h4>
-                <p class="algorithm-card__description">Keine Kante gelb. Ecken können bereits gelöst sein.</p>
+                <p class="algorithm-card__description">
+                  Keine Kante gelb. Ecken können bereits gelöst sein.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">F (R U R' U') F' <br> f (R U R' U') f'</span>
+              <span class="algorithm-card__notation-text"
+                >F (R U R' U') F' <br />
+                f (R U R' U') f'</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid1.png" alt="Würfelbild: Linie (Line)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid1.png"
+                alt="Würfelbild: Linie (Line)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Linie (Line)</h4>
-                <p class="algorithm-card__description">2 gelbe Kanten gegenüber. Waagerecht halten (links nach rechts).</p>
+                <p class="algorithm-card__description">
+                  2 gelbe Kanten gegenüber. Waagerecht halten (links nach
+                  rechts).
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">F (R U R' U') F'</span>
+              <span class="algorithm-card__notation-text"
+                >F (R U R' U') F'</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid2.png" alt="Würfelbild: Winkel (L-Shape)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid2.png"
+                alt="Würfelbild: Winkel (L-Shape)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Winkel (L-Shape)</h4>
-                <p class="algorithm-card__description">2 gelbe Kanten nebeneinander. Nach hinten und links ausrichten.</p>
+                <p class="algorithm-card__description">
+                  2 gelbe Kanten nebeneinander. Nach hinten und links
+                  ausrichten.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">f (R U R' U') f'</span>
+              <span class="algorithm-card__notation-text"
+                >f (R U R' U') f'</span
+              >
             </div>
           </div>
         </div>
@@ -292,97 +478,168 @@
         <div class="cfop-section__content">
           <h3 class="cfop-section__subheading">
             <span class="cfop-section__subheading-marker"></span>
-            <span class="cfop-section__subheading-text">Ecken ausrichten / orientieren</span>
+            <span class="cfop-section__subheading-text"
+              >Ecken ausrichten / orientieren</span
+            >
           </h3>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid4.png" alt="Würfelbild: Car (H)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid4.png"
+                alt="Würfelbild: Car (H)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Car (H)</h4>
-                <p class="algorithm-card__description">0 Ecken gelb. Scheinwerfer vorne UND hinten.</p>
+                <p class="algorithm-card__description">
+                  0 Ecken gelb. Scheinwerfer vorne UND hinten.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">F 3x(R U R' U) F'</span>
+              <span class="algorithm-card__notation-text"
+                >F 3x(R U R' U) F'</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid5.png" alt="Würfelbild: Blinker (Pi)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid5.png"
+                alt="Würfelbild: Blinker (Pi)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Blinker (Pi)</h4>
-                <p class="algorithm-card__description">0 Ecken gelb. Scheinwerfer links, Außensticker oben &amp; unten.</p>
+                <p class="algorithm-card__description">
+                  0 Ecken gelb. Scheinwerfer links, Außensticker oben &amp;
+                  unten.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">f (R U R' U') f' <br> F (R U R' U') F'</span>
+              <span class="algorithm-card__notation-text"
+                >f (R U R' U') f' <br />
+                F (R U R' U') F'</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid6.png" alt="Würfelbild: Headlights (U)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid6.png"
+                alt="Würfelbild: Headlights (U)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Headlights (U)</h4>
-                <p class="algorithm-card__description">Hinten fehlen die Ecken. Scheinwerfer nach hinten</p>
+                <p class="algorithm-card__description">
+                  Hinten fehlen die Ecken. Scheinwerfer nach hinten
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">R2 (D' R U2 R' D) (R U2 R)</span>
+              <span class="algorithm-card__notation-text"
+                >R2 (D' R U2 R' D) (R U2 R)</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid7.png" alt="Würfelbild: Chameleon (T)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid7.png"
+                alt="Würfelbild: Chameleon (T)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Chameleon (T)</h4>
-                <p class="algorithm-card__description">Links oben und unten fehlen die Ecke / sind nach oben und unten gerichtet.</p>
+                <p class="algorithm-card__description">
+                  Links oben und unten fehlen die Ecke / sind nach oben und
+                  unten gerichtet.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">r U R' U' r' <br> F R F'</span>
+              <span class="algorithm-card__notation-text"
+                >r U R' U' r' <br />
+                F R F'</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid8.png" alt="Würfelbild: Sune (Fish)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid8.png"
+                alt="Würfelbild: Sune (Fish)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Sune (Fish)</h4>
-                <p class="algorithm-card__description">1 Ecke gelb oben (unten links). Gelber Sticker schaut nach vorne rechts.</p>
+                <p class="algorithm-card__description">
+                  1 Ecke gelb oben (unten links). Gelber Sticker schaut nach
+                  vorne rechts.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">R U R' U R U2 R'</span>
+              <span class="algorithm-card__notation-text"
+                >R U R' U R U2 R'</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid9.png" alt="Würfelbild: Anti-Sune (Anti-Fish)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid9.png"
+                alt="Würfelbild: Anti-Sune (Anti-Fish)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Anti-Sune (Anti-Fish)</h4>
-                <p class="algorithm-card__description">1 Ecke gelb oben (oben rechts). Gelber Sticker schaut nach vorne.</p>
+                <p class="algorithm-card__description">
+                  1 Ecke gelb oben (oben rechts). Gelber Sticker schaut nach
+                  vorne.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">R U2 R' U' R U' R'</span>
+              <span class="algorithm-card__notation-text"
+                >R U2 R' U' R U' R'</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid10.png" alt="Würfelbild: Bowtie (L)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid10.png"
+                alt="Würfelbild: Bowtie (L)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Bowtie (L)</h4>
-                <p class="algorithm-card__description">2 Ecken diagonal gelb oben. Gelbe Ecke zeigt nach vorne-links.</p>
+                <p class="algorithm-card__description">
+                  2 Ecken diagonal gelb oben. Gelbe Ecke zeigt nach vorne-links.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">F' (r U R' U' r') F R</span>
+              <span class="algorithm-card__notation-text"
+                >F' (r U R' U' r') F R</span
+              >
             </div>
           </div>
         </div>
@@ -392,9 +649,14 @@
       <section class="cfop-section">
         <div class="cfop-section__intro">
           <h3 class="cfop-section__title">
-            <span class="cfop-section__title-text">4. PLL in zwei Schritten</span>
+            <span class="cfop-section__title-text"
+              >4. PLL in zwei Schritten</span
+            >
           </h3>
-          <p class="cfop-section__description">Letzter Schritt: Steine an die richtige Position verschieben. Erst Ecken, dann Kanten.</p>
+          <p class="cfop-section__description">
+            Letzter Schritt: Steine an die richtige Position verschieben. Erst
+            Ecken, dann Kanten.
+          </p>
         </div>
 
         <div class="cfop-section__content">
@@ -405,27 +667,46 @@
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid12.png" alt="Würfelbild: Benachbarter Tausch (T-Perm)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid12.png"
+                alt="Würfelbild: Benachbarter Tausch (T-Perm)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Benachbarter Tausch (T-Perm)</h4>
-                <p class="algorithm-card__description">Korrekte Ecken nach <strong>links</strong> halten.</p>
+                <p class="algorithm-card__description">
+                  Korrekte Ecken nach <strong>links</strong> halten.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">(R U R' U' R') F R2 U' (R' U' R U) R' F'</span>
+              <span class="algorithm-card__notation-text"
+                >(R U R' U' R') F R2 U' (R' U' R U) R' F'</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/CubeGrid11.png" alt="Würfelbild: Diagonaler Tausch (Y-Perm)" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/CubeGrid11.png"
+                alt="Würfelbild: Diagonaler Tausch (Y-Perm)"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Diagonaler Tausch (Y-Perm)</h4>
-                <p class="algorithm-card__description">Zu tauschende Ecken oben links und unten rechts halten.</p>
+                <p class="algorithm-card__description">
+                  Zu tauschende Ecken oben links und unten rechts halten.
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">F (R U' R' U' R U R') F' <br> (R U R' U') (R' F R F')</span>
+              <span class="algorithm-card__notation-text"
+                >F (R U' R' U' R U R') F' <br />
+                (R U R' U') (R' F R F')</span
+              >
             </div>
           </div>
         </div>
@@ -438,61 +719,101 @@
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/ua-perm.png" alt="Würfelbild: Ua-Perm" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/ua-perm.png"
+                alt="Würfelbild: Ua-Perm"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Ua-Perm</h4>
-                <p class="algorithm-card__description">Kanten tauschen gegen den Uhrzeigersinn. Fertige Seite nach <strong>hinten</strong>. Gleich wie Ub-Perm nur gegen Uhrzeigersinn (U).</p>
+                <p class="algorithm-card__description">
+                  Kanten tauschen gegen den Uhrzeigersinn. Fertige Seite nach
+                  <strong>hinten</strong>. Gleich wie Ub-Perm nur gegen
+                  Uhrzeigersinn (U).
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">M2 (U M U2 M' U) M2</span>
+              <span class="algorithm-card__notation-text"
+                >M2 (U M U2 M' U) M2</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/ub-perm.png" alt="Würfelbild: Ub-Perm" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/ub-perm.png"
+                alt="Würfelbild: Ub-Perm"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Ub-Perm</h4>
-                <p class="algorithm-card__description">Kanten tauschen im Uhrzeigersinn. Fertige Seite nach <strong>hinten</strong>. Gleich wie Ua-Perm nur im Uhrzeigersinn (U').</p>
+                <p class="algorithm-card__description">
+                  Kanten tauschen im Uhrzeigersinn. Fertige Seite nach
+                  <strong>hinten</strong>. Gleich wie Ua-Perm nur im
+                  Uhrzeigersinn (U').
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">M2 (U' M U2 M' U') M2</span>
+              <span class="algorithm-card__notation-text"
+                >M2 (U' M U2 M' U') M2</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/h-perm.png" alt="Würfelbild: H-Perm" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/h-perm.png"
+                alt="Würfelbild: H-Perm"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>H-Perm</h4>
-                <p class="algorithm-card__description">Tauscht alle Kanten gegenüber (Vorne/Hinten und Links/Rechts).</p>
+                <p class="algorithm-card__description">
+                  Tauscht alle Kanten gegenüber (Vorne/Hinten und Links/Rechts).
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">M2 U (M2 U2 M2) U M2</span>
+              <span class="algorithm-card__notation-text"
+                >M2 U (M2 U2 M2) U M2</span
+              >
             </div>
           </div>
 
           <div class="algorithm-card">
             <div class="algorithm-card__main">
-              <img class="algorithm-card__image" src="images/z-perm.png" alt="Würfelbild: Z-Perm" loading="lazy" />
+              <img
+                class="algorithm-card__image"
+                src="images/z-perm.png"
+                alt="Würfelbild: Z-Perm"
+                loading="lazy"
+              />
               <div class="algorithm-card__text">
                 <h4>Z-Perm</h4>
-                <p class="algorithm-card__description">Tauscht benachbarte Kanten über Kreuz (Vorne/Rechts und Hinten/Links).</p>
+                <p class="algorithm-card__description">
+                  Tauscht benachbarte Kanten über Kreuz (Vorne/Rechts und
+                  Hinten/Links).
+                </p>
               </div>
             </div>
             <div class="algorithm-card__notation">
-              <span class="algorithm-card__notation-text">M' (U M2 U M2 U) M' <br> U2 M2</span>
+              <span class="algorithm-card__notation-text"
+                >M' (U M2 U M2 U) M' <br />
+                U2 M2</span
+              >
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="cfop-footer">
-      
-    </footer>
+    <footer class="cfop-footer"></footer>
   </body>
 </html>
